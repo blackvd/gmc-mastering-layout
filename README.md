@@ -21,5 +21,4 @@
 1. **index.html:** your HTML code goes here.
 2. **styles.css:** your CSS code goes here.
 3. **README.md:** contains exercise instructions.
-4. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
 
