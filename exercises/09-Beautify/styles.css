@@ -1,4 +1,4 @@
-#div1 {
+#div1, #div4 {
 	background-color: red;
 	width: 150px;
 	float: left;
@@ -7,7 +7,7 @@
 	text-align: center;
 	border-radius: 50px;
 }
-#div2 {
+#div2, #div5 {
 	background-color: blue;
 	height: 100px;
 	width: 150px;
@@ -17,7 +17,7 @@
 	overflow: hidden;
 	border-radius: 25px;
 }
-#div3 {
+#div3, #div6 {
 	background-color: yellow;
 	height: 100px;
 	width: 150px;
@@ -26,4 +26,16 @@
 	text-align: center;
 	overflow: hidden;
 	border-radius: 25px;
+}
+
+#div4{
+	background-color: blue;
+}
+
+#div5{
+	background-color: red;
+}
+
+#div6{
+	background-color: black;
 }
