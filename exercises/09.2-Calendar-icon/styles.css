@@ -21,7 +21,8 @@
 	border-bottom-left-radius: 3px;
 }
 
-.calendar::before, .calendar:after{
+.calendar::before, .calendar::after{
+	position: absolute;
 	content:'';
 	float:left;
 	width:8px;
@@ -31,17 +32,18 @@
 	border-radius:10px;
 	box-shadow:0 1px 1px #fff;
 	}
-.calendar::before{left:11px;}	
-.calendar::after{right:11px;}
+.calendar::before{left:11px; top: 3px;}	
+.calendar::after{right:11px; top: 3px;}
 
 .calendar em::before, .calendar em::after{
+	position: absolute;
 	content:'';
 	float: left;
-	margin: 10px;
+	margin: 0;
 	width:4px;
 	height:14px;
-	background:blue;
+	background:lightgrey;
 	z-index:2;
 	}
-.calendar em::before{left:13px;}	
-.calendar em::after{right:13px;}	
+.calendar em::before{top: -7px;left:13px;}	
+.calendar em::after{top: -7px;right:13px;}	
