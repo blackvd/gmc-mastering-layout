@@ -1,11 +1,16 @@
 #wrapper {
     background: grey;
+    height: 100px;
+    width: 100%;
+    display: flex;
 }
 
 #sidebar {
     background: blue;
+    width: 30%;
 }
 
 #content {
     background: yellow;
+    width: 70%;
 }
