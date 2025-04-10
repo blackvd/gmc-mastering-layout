@@ -6,3 +6,7 @@
 #mySecondH2 {
     display: none;
 }
+
+#myUL{
+    display: inline;
+}
